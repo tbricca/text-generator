@@ -10,7 +10,7 @@ class Output extends Component {
   }
 
   render() {
-    return <div className="output">{this.props.value}</div>;
+    return <div className="output text-background">{this.props.value}</div>;
   }
 }
 

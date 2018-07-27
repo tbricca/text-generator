@@ -1,0 +1,10 @@
+input {
+  margin-right: 20px;
+}
+
+.text-background {
+  /* background-color: ; */
+  border-style: solid;
+  border-color: blanchedalmond;
+  padding: 10px;
+}

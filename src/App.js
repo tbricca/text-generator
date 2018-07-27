@@ -52,8 +52,9 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App Container">
-        <h1>ReactJS Sample Text Generator</h1>
+      <div className="App container">
+        <h1 className="text-center">ReactJS Sample Text Generator</h1>
+        <hr />
         <hr />
         <form className="form-inline">
           <div className="form-group">
@@ -71,6 +72,8 @@ class App extends Component {
             />
           </div>
         </form>
+        <br />
+        <br />
         <Output value={this.state.text} />
       </div>
     );
